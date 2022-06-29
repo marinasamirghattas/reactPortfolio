@@ -1,10 +1,10 @@
-import Decreament from "../components/decreament";
-import Increament from "../components/increament";
+import Decreament from "../components/counter/decreament";
+import Increament from "../components/counter/increament";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from "react";
 
 
-function Home() {
+function Counter() {
 
   const [conter,setCounter]=useState(99)
 
@@ -28,4 +28,4 @@ function Home() {
     );
   }
   
-  export default Home;
+  export default Counter;
