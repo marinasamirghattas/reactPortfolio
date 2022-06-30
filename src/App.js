@@ -5,6 +5,7 @@ import NavBar from './components/navbar/navbar';
 import Home from './components/home/home';
 import Shop from './components/shop/shop';
 import About from './components/about/about';
+import Todo from './view/todo/Todo';
 import Product from './components/productDetails/product';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
     <Route path='/shop' element={<Shop/>}></Route>
     <Route path='/shop/:id' element={<Product/>}></Route>
     <Route path='/about' element={<About/>}></Route>
+    <Route path='/todo' element={<Todo/>}></Route>
+
    </Routes>
    </BrowserRouter>
    </div>

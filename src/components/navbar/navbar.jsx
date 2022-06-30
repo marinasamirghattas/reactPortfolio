@@ -4,16 +4,21 @@ const NavBar = () => {
   return (
     <Navbar className="p-4" bg="dark" variant="dark">
       <Container>
-        <Link to="/">Home</Link>
+        <Link className="text-decoration-none" to="/">
+          Home
+        </Link>
         <Nav className="ms-auto d-flex justify-content-between">
-          <Link className="m-3" to="/shop">
+          <Link className="m-3 text-decoration-none" to="/shop">
             Products
           </Link>
-          <Link className="m-3" to="/counter">
+          <Link className="m-3 text-decoration-none" to="/counter">
             Donat
           </Link>
-          <Link className="m-3" to="/about">
+          <Link className="m-3 text-decoration-none" to="/about">
             About
+          </Link>
+          <Link className="m-3 text-decoration-none" to="/todo">
+            ToDo
           </Link>
         </Nav>
       </Container>
