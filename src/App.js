@@ -6,6 +6,7 @@ import Shop from "./components/shop/shop";
 import About from "./components/about/about";
 import Todo from "./view/todo/Todo";
 import Product from "./components/productDetails/product";
+import Contact from "./components/contact/contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/shop/:id" element={<Product />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/todo" element={<Todo />}></Route>
+          <Route path="/contactUs" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

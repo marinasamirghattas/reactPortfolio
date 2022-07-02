@@ -20,6 +20,9 @@ const NavBar = () => {
           <Link className="m-3 text-decoration-none text-white" to="/todo">
             ToDo
           </Link>
+          <Link className="m-3 text-decoration-none text-white" to="/contactUs">
+            Contact Us
+          </Link>
         </Nav>
       </Container>
     </Navbar>
