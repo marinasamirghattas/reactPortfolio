@@ -21,11 +21,16 @@ const Product = () => {
   return (
     <>
       {product ? (
-        <Card className="w-25 mb-5 bg-dark text-white text-center my-5 mx-auto">
+        <Card
+          className="mb-5 bg-dark text-white text-center p-5 my-5 mx-auto"
+          style={{ width: "30rem", height: "55rem" }}
+        >
           <Card.Img src={product.image} alt="Card image" />
           <Card.Body>
             <Card.Title>{product.title}</Card.Title>
-            <Card.Text>{product.desc}</Card.Text>
+            <hr></hr>
+            <Card.Text>{product.description}</Card.Text>
+            <hr></hr>
             <Card.Text>{product.price}$</Card.Text>
           </Card.Body>
         </Card>
